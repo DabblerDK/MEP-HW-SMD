@@ -5,7 +5,7 @@ This is the repository holding the Surface Mount Device (SMD) Hardware for OSGP 
 The scematics can be use in other countries too if you gain access to the Multipurpose Expansion Port (MEP) terminals.
 Please:
 - see https://github.com/OSGP-Alliance-MEP-and-Optical for further hardware specifiactions of these meters.
-- see https://www.dabbler.com for further information about this hardware project
+- see https://www.dabbler.dk for further information about this hardware project
 
 
 Notes:
