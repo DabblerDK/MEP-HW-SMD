@@ -12,6 +12,7 @@ Notes:
 - The Gerber files has been generated acording to [JLCPCBs](https://jlcpcb.com/) specifications.
 - We have not been able to source the correct MEP connector, so please note that the pin-numbers does NOT corespond to the pin numbers in the official documentation. Also you should NOT insert the 2x3 pin headers all the way into the PCB (the pins should be aligned with the PCB back side).
 - The ESP32 can be programmed "on board" using the J5 connector. We usually don't put headers on that one, but simply insert the pins of a FTDI232 directly into the holes. WARNING: Some FTDI232's supply 5v EVEN when they are jumped to 3.3v. Don't use those - they'll fry your ESP32!
+- Debug information from the software are written on the serial out on J5. Remember it is 3.3v and if you use a FTDI232, please only connect GND, TXD and RXD during normal operation (i.e. when the module is connected to a meter)
 - The Schematic for the THT and the SMD versions are currently the same, but they might branch in the future
 - J7 have two functions: before "on board" programming of the ESP32 a jumper must be set between ESP_PROGRAM and GND (pin 1 and 2) and the power jumper between pin 3 and 4 must be removed
 - WARNING: Remove all jumpers from J7 before adjusting the buck converter voltage to 3.6v. When done set a jumper between pin 3 and 4 for nomal operation.
