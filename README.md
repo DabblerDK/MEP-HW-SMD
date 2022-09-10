@@ -29,5 +29,5 @@ Bill of Materials:
 | U1 | MAX3232 | SOIC-16 | 3.3v version |
 | U2 | ESP32-wroom-32e | 16MB recommended but currently NOT required |
 | J1-J4 | DC-DC Buck converter | | i.e. https://www.ebay.com/itm/264731212329 |
-| J6 | 2x3 Horizontal pin header | THT 2.54mm | i.e. https://www.ebay.com/itm/253023279430 |
+| J6 | 2x3 Horizontal pin header | THT 2.54mm | IMPORTANT: Do not insert this pin header fully in the PCB. The pins should be soldered flush with the PCB surface to fit the connector in the meter! i.e. https://www.ebay.com/itm/253023279430 |
 | J7 | 2x2 Vertical pin header | SMD 1.27mm | i.e. https://www.ebay.com/itm/173851525492 |
