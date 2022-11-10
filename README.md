@@ -25,7 +25,7 @@ Bill of Materials:
 | R1-R2 | 10K ohm | 0805 | |
 | R3-R7 | 0 ohm | 0805 | Mount either R3 (permanent) or R4 (ESP32 controlled, recommended) depending on how you will power your MAX3232. See https://www.dabbler.dk/index.php/2022/04/03/echelon-nes-smart-meters-dabbling-the-hardware-v1-10-and-v2-00/ |
 | D1 | 1N4007 | 0805 | The line on the diode should be towards the D1 markings on the PCB silk screen |
-| C1-C5 | 100nF | 0805, Non-polarized | |
+| C1-C5 | 100nF | 0805, Non-polarized | https://www.ebay.com/itm/255486850064 |
 | U1 | MAX3232 | SOIC-16 | 3.3v version |
 | U2 | ESP32-wroom-32e | 16MB recommended but currently NOT required |
 | J1-J4 | DC-DC Buck converter | | i.e. https://www.ebay.com/itm/264731212329. The VIN- corner should be aligned towards the 5 capacitors C1-C5 |
