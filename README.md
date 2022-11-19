@@ -15,7 +15,7 @@ Notes:
 - Debug information from the software are written on the serial out on J5. Remember it is 3.3v and if you use a FTDI232, please only connect GND, TXD and RXD during normal operation (i.e. when the module is connected to a meter)
 - The Schematic for the THT and the SMD versions are currently the same, but they might branch in the future
 - J7 have two functions: before "on board" programming of the ESP32 a jumper must be set between ESP_PROGRAM and GND (pin 1 and 2) and the power jumper between pin 3 and 4 must be removed
-- WARNING: Remove all jumpers from J7 before adjusting the buck converter voltage to 3.6v. When done set a jumper between pin 3 and 4 for nomal operation.
+- WARNING: Remove all jumpers from J7 before adjusting the buck converter voltage to 3.4v-3.5v. When done set a jumper between pin 3 and 4 for nomal operation.
 - The buck converter must be mounted without pin headers, i.e. flush to the PCB. Just put solder blobs in the holes and use additional heat for a good connection. The module will not fit in the meter if pin headers are used!
 
 
