@@ -1,4 +1,4 @@
-# MEP-HW-SMD
+# MEP-HW-SMD v2.00
 Multipurpose Expansion Port (MEP) Surface Mount Device (SMD) Hardware for OSGP Smart Meters in Denmark
 
 This is the repository holding the Surface Mount Device (SMD) Hardware for OSGP Smart Meters (i.e. Echelon or NES) in Denmark.
@@ -7,6 +7,7 @@ Please:
 - see https://github.com/OSGP-Alliance-MEP-and-Optical for further hardware specifiactions of these meters.
 - see https://www.dabbler.dk for further information about this hardware project
 
+Version 1.10 is THT and version 2.00 is SMD. The two versions share schematics and are 100% compatible. They uses the same software and have the exact same functionality - only the component technology has changed.
 
 Notes:
 - The Gerber files has been generated acording to [JLCPCBs](https://jlcpcb.com/) specifications.
