@@ -32,3 +32,7 @@ Bill of Materials:
 | J1-J4 | DC-DC Buck converter | | i.e. https://www.ebay.com/itm/264731212329. The VIN- corner should be aligned towards the 5 capacitors C1-C5 |
 | J6 | 2x3 Horizontal pin header | THT 2.54mm | IMPORTANT: Do not insert this pin header fully in the PCB. The pins should be soldered exactly flush with the PCB surface on the soldering side of the PCB to fit the connector in the meter! i.e. https://www.ebay.com/itm/253023279430 |
 | J7 | 2x2 Vertical pin header | SMD 1.27mm | i.e. https://www.ebay.com/itm/173851525492. You will need one jumper for these: If set between the two pins next to the ESP32 it is in programming mode (use FTDI232 board connected to J5 to program). If set between the two pins next to the J6 MEP connector it is in normal operation. Remove jumper completely while adjusting the Buck converter (no power will then be supplied to chips) |
+
+Pictures of the populated PCB:
+![Populated ESP-MEP Front](https://github.com/DabblerDK/MEP-HW-SMD/blob/main/Images/SMD%20Populated%20ESP-MEP%20Front.jpg)
+![Populated ESP-MEP Back](https://github.com/DabblerDK/MEP-HW-SMD/blob/main/Images/SMD%20Populated%20ESP-MEP%20Back.jpg)
