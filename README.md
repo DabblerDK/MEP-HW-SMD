@@ -1,6 +1,10 @@
 # MEP-HW-SMD v2.00
 Multipurpose Expansion Port (MEP) Surface Mount Device (SMD) Hardware for OSGP Smart Meters in Denmark
 
+---
+# This hardware will not be updated any further as I no longer have access to a NES Smart Meter. Read more here: https://www.dabbler.dk/index.php/2023/10/31/echelon-nes-smart-meters-probably-our-final-post-on-this-topic/
+---
+
 This is the repository holding the Surface Mount Device (SMD) Hardware for OSGP Smart Meters (i.e. Echelon or NES) in Denmark.
 The scematics can be use in other countries too if you gain access to the Multipurpose Expansion Port (MEP) terminals.
 Please:
